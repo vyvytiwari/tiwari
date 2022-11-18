@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color:blueviolet;
+}
+h1{
+    color: whitesmoke;
+}
+.flex-container{
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: dashed;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 2s all;
+}
+a:hover{
+    background-color: darkcyan;
+    color: black;
+}
+.flex-item1{
+    flex: 10%;
+    background-color:rgb(241, 178, 4);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 30px;
+}
+.slider{
+    height: 1000px;
+    background-image: url(../image/vector-illustration-full-moon-close-up-around-stars_1284-42218.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animate{
+    from{
+        background-image: url(../image/image\ 2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
