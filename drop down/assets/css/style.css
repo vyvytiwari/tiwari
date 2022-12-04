@@ -1,0 +1,63 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/stationery-keyboard-white-table-with-green-leaves-coffee-cup_23-2148128452.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: peachpuff;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+ color: black;    
+}
+.active , .menu-bar ul li :hover{
+    background-color:pink;
+    border-radius: 6px;
+}
+.menu-bar .fa{
+margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li :hover .sub-menu-1{
+    position:absolute;
+    background: palegoldenrod;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li :hover .sub-menu-1 ul{
+    margin: 10px;
+}
+.menu-bar ul li :hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} 
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+
+
